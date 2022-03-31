@@ -31,6 +31,7 @@ PC      960px a víc
 
 .member img{
 	border-radius: 50%;
+	max-width: 100%;
 
 }
 
@@ -52,8 +53,19 @@ PC      960px a víc
 		align-items: center;
 	}
 
-	.member img,
-	.member p{
+	.member-text{
+		flex: 0 0 50%;
+		padding-right: 20px;
+	}
+
+	.member-text p{
+		padding: 0;
+	}
+
+	.member img{
+		padding: 0 20px;
 		flex: 0 0 50%;
 	}
+
+
 }
