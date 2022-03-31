@@ -69,3 +69,20 @@ PC      960px a víc
 		flex: 0 0 50%;
 	}
 }
+
+/* --------------------------------- PC ------------------------- */
+@media screen and (min-width: 960px){
+	.member{
+		flex: 0 0 calc((100% - 40px)/4);
+		flex-direction: column;
+		margin-top: 0px;
+	}
+
+	.member-text{
+		flex: 0 0 50%;
+		padding: 0 20px;
+
+	}
+
+	
+}
